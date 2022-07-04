@@ -22,7 +22,7 @@ carousel-img-width {
     font-weight:700;
     font-size: .9rem;
     letter-spacing: .2rem;
-    background: rgba(0,0,0, 0.8)!important;
+    background: gray!important;
 }
 
 .navbar-brand img{
@@ -41,3 +41,12 @@ width: 3.5rem;
 .mypage{
     margin-top: 5rem;
 }
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    width: 100%; 
+    }
+    
