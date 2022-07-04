@@ -1,0 +1,43 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+margin-bottom: 0.5rem;
+font-family: ‘Oswald’, sans-serif;
+font-weight: 500;
+line-height: 1.2;
+color: inherit;
+}
+
+carousel-img-width {
+    width: 100%;
+  }
+
+  body 
+  {
+   margin-top:0px;
+   margin-left:0px;
+   margin-right:0px;
+  }
+
+.navbar{
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: .9rem;
+    letter-spacing: .2rem;
+    background: rgba(0,0,0, 0.8)!important;
+}
+
+.navbar-brand img{
+height: 3.5rem;
+width: 3.5rem;
+}
+
+.navbar-nav .navbar-dark .navbar-link.active .navbar-link:hover {
+    color: green;
+}
+
+.thebody {
+    margin-top: 2rem;
+}
+
+.mypage{
+    margin-top: 5rem;
+}

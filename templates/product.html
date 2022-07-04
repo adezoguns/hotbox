@@ -1,0 +1,47 @@
+{%extends 'base.html'%}
+
+
+{% block page%}
+<h1 class='page-header' align='center'> Products <h1>
+<hr>
+{%endblock%}
+
+
+{%block main%}
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+
+      <div class="media">
+        <div class="media-left media-top">
+          <img class ="media-object" src="{{url_for('static', filename='img/soap1.jpeg')}}" width='200' height='200' class="mr-3" alt="..."> 
+        </div>
+        <div class="media-body">
+          <h2 class="media-heading" ><font color="#F012BE">Yellow soap</font></h2>
+          <p><h5><small> Good for the body.</small></h5></p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="clearfix"> </div>
+
+      <div class="media">
+        <div class="media-left media-top">
+          <img class ="media-object" src="{{url_for('static', filename='img/soap7.jpeg')}}" width='200' height='200' class="mr-3" alt="...">
+        </div>
+        <div class="media-body">
+          <h2 class="media-heading" ><font color="#F012BE">XXX soap</font></h2>
+          <h5><small> Packaged and fragranced</small></h5></p>
+        </div>
+      </div>
+      
+      <hr>
+      <div class='clearfix'></div>
+    </div> 
+  </div>  
+</div>
+  
+
+{%endblock%}

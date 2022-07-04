@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!--Boostrap css-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!--Special css-->
+<link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+<link rel="stylesheet" href={{url_for('static', filename='css/font-awesome.min.css')}}>
+<link rel="stylesheet" href={{url_for('static', filename='css/site.css?v1.0')}}>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/modernizr-2.8.3.css') }}">
+<link rel="icon" href="data:;base64,=">
+<!--<link rel="stylesheet" href={{url_for('static', filename='css/bootstrap.min.css')}}>-->
+
+<!--Our css-->
+<link rel="stylesheet" href={{url_for('static', filename='css/style.css')}}>
+
+<!--Boostrap js-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!--JQuery and other js-->
+<script src="{{ url_for('static', filename='js/jquery-1.12.4.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>
+<script src="{{ url_for('static', filename='js/respond.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/site.js?v1.0') }}"></script>
+<!--<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>-->
+
+<!--Our JS-->
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+
+{%block head%}
+
+{% endblock %}
+
+</head>
+
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/">Rareluxe<img src="{{url_for('static', filename='img/Rareluxe.png')}}" width='50' height='50'  alt="..."></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/products">Products</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="/about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact us</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+<hr>
+<div class='clearfix'></div>
+<div class='mypage'>
+{% block page%}
+
+{%endblock%}
+</div>
+
+
+<body class='thebody'>
+
+<!--<button type="button" class="btn btn-outline-primary">Primary</button>-->
+{%block main%}
+
+{%endblock%}
+
+
+</body>
+
+{%extends 'footer.html'%}
+
+</html>
