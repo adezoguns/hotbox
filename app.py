@@ -10,9 +10,9 @@ app=Flask(__name__)
 def home():
 	return render_template('index.html')
 
-@app.route('/products')
+@app.route('/services')
 def products():
-	return render_template('product.html')
+	return render_template('services.html')
 
 @app.route('/about')
 def about():
