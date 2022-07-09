@@ -53,6 +53,8 @@ width: 3.5rem;
     position: absolute;
     max-width: 50%;
     height: auto;
+    border-radius: 8px;
+    width: 50%;
 }
 
 .carousel-inner img {
