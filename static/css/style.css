@@ -37,6 +37,10 @@ width: 3.5rem;
 .thebody {
     margin-top: 2rem;
     background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .mypage{
