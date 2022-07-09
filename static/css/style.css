@@ -37,7 +37,7 @@ width: 3.5rem;
 
 .thebody {
     margin-top: 2rem;
-    background-image: url("{{ url_for('static',filename='img/background-gift.gif') }}");
+    background-image: url("/static/img/background-gift.gif");
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
