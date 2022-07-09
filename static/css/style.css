@@ -3,7 +3,7 @@ margin-bottom: 0.5rem;
 font-family: 'Oswald', sans-serif;
 font-weight: 500;
 line-height: 1.2;
-color: burlywood;
+color:whitesmoke;
 }
 
 carousel-img-width {
@@ -37,7 +37,7 @@ width: 3.5rem;
 
 .thebody {
     margin-top: 2rem;
-    background-image: url(https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif);
+    background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
