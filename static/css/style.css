@@ -51,8 +51,8 @@ width: 3.5rem;
 
 .gmap_canvas{
     position: absolute;
-    width: 100vh;
-    height: 100vh;
+    max-width: 50%;
+    height: auto;
 }
 
 .carousel-inner img {
