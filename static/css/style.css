@@ -43,6 +43,7 @@ width: 3.5rem;
     min-height: 100vh;
     background-color: black;
     width: 100%;
+    background-size: contain;
 }
 
 .mypage{
