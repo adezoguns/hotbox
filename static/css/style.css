@@ -49,6 +49,9 @@ width: 3.5rem;
     margin-top: 5rem;
 }
 
+.gmap_canvas{
+    position: absolute;
+}
 
 .carousel-inner img {
     width: 100%;
