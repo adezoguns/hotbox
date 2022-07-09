@@ -50,12 +50,13 @@ width: 3.5rem;
 }
 
 .gmap_canvas{
-    position: absolute;
-    max-width: 50%;
-    height: auto;
-    border-radius: 8px;
-    width: 50%;
-}
+        height: 300px;
+        width: 300px;
+        resize: both;
+        overflow: auto;
+      }
+      
+
 
 .carousel-inner img {
     width: 100%;
