@@ -42,7 +42,9 @@ width: 3.5rem;
     width: 100%;
 }
 
-
+.mypage{
+    margin-top: 5rem;
+}
 
 #gmap_canvas{
         height: 250px;
