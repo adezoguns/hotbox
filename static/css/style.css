@@ -49,8 +49,8 @@ width: 3.5rem;
 }
 
 #gmap_canvas{
-        height: 250px;
-        width:  400px;
+        height: 350px;
+        width:  600px;
         resize: both;
         overflow: auto;
       }
