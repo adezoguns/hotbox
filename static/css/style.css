@@ -36,10 +36,12 @@ width: 3.5rem;
     margin-top: 2rem;
     background-image: url(https://media.giphy.com/media/7VzgMsB6FLCilwS30v/giphy-downsized-large.gif);
     background-repeat: no-repeat;
-    background-position: center;
     min-height: 100vh;
     background-color: black;
-    width: 100%;
+    background-size:100%;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
 }
 
 .mypage{
