@@ -49,6 +49,7 @@ width: 3.5rem;
 }
 
 #gmap_canvas{
+        margin-top: 10px;
         height: 350px;
         width:  600px;
         resize: both;
