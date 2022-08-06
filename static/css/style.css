@@ -23,6 +23,10 @@ body {
     background: lightslategray!important;
 }
 
+#color-footer-contact{
+    color: white;
+}
+
 .navbar-brand img{
 height: 3.5rem;
 width: 3.5rem;
