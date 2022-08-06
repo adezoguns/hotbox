@@ -33,7 +33,7 @@ width: 3.5rem;
 }
 
 .thebody {
-    margin-top: 2rem;
+    margin-top: 1rem;
     background-image: url(https://media.giphy.com/media/H83XigCowswb8Tm0HX/giphy.gif);
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -45,7 +45,7 @@ width: 3.5rem;
 }
 
 .mypage{
-    margin-top: 2.5rem;
+    margin-top: 3rem;
 }
 
 #gmap_canvas{
