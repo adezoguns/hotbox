@@ -33,7 +33,7 @@ width: 3.5rem;
 }
 
 .navbar-nav .navbar-dark .navbar-link.active .navbar-link:hover {
-    color: blue;
+    color: green;
 }
 
 .thebody {
